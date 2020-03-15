@@ -12,4 +12,4 @@ def integerToBinary(num):
         num = num//2
     if isNeg == True:
         result = "-" + result
-    return result
+    return int(result)
