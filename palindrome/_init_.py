@@ -1,6 +1,10 @@
+import re
+
+
 def isPalindrome(s):
     def toChar(s):
-        s = s.lower()
+        s = re.split("[^a-zA-Z\\d]+", s)
+        s = ''.join([i for i in s if len(i) > 0]).lower()
         ans = ""
         for c in s:
             if c in "abcdefghijklmnoprstuvwxyz":

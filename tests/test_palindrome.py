@@ -4,15 +4,15 @@ from palindrome._init_ import isPalindrome
 
 
 class TestPalindrome(unittest.TestCase):
-    def test_string(self):
+    def test_sentence(self):
         """
         Test if input is a palindrome
         """
-        s = "ablewasiereisawelba"
+        s = "Able was I, ere I saw Elba"
         result = isPalindrome(s)
         self.assertEqual(result, 1)
 
-    def test_short_string(self):
+    def test_string(self):
         """
         Test if input is a palindrome
         """
