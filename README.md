@@ -4,7 +4,7 @@ This is a part of what I learned in an online course **Introduction to Computer 
 
 ## Testing
 
-For testing code I use *unittes* which is built into Python. *unittest* contains both a testing framework and a test runner.
+For testing a code I use *unittest* which has been built into the Python standard library. *unittest* contains both a testing framework and a test runner.
 
 ## Getting started
 
